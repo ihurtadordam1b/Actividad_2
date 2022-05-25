@@ -12,7 +12,7 @@ public class Juego
         Jugador p1=new Jugador();
         Jugador p2=new Jugador();
         boolean finDeJuego=false;
-        Integer Rondasjugadas = 0;    // Número de rondas jugadas
+        Integer Rondasjugadas = 0;
         Integer exitosJugador1=p1.éxitos;
         Integer exitosJugador2=p2.éxitos;
         Integer empates = 0;
@@ -84,7 +84,8 @@ class Jugador{
      * Escoge piedra, papel o tijera al azar
      */
 
-    int éxitos;      // número de partidas ganadas
+    // número de partidas ganadas
+    int éxitos;
     public String opcion_al_azar()
     {
         String opcion="";
