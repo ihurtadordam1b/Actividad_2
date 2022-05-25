@@ -18,7 +18,7 @@ public class Juego
         Integer EmPaTeS = 0;
         String opcion_JUGADOR1;
         String opcion_JUGADOR2;
-        
+
         // Bucle de juego
         do
         {
@@ -83,6 +83,8 @@ class Jugador{
     /**
      * Escoge piedra, papel o tijera al azar
      */
+
+    int éxitos;      // número de partidas ganadas
     public String opcion_al_azar()
     {
         String opcion="";
@@ -107,7 +109,7 @@ class Jugador{
     {
         return(éxitos);
     }
-    
-    int éxitos;      // número de partidas ganadas
+
+
     int winTotal;
 }
