@@ -102,15 +102,4 @@ class Jugador{
         }
         return opcion;
     }
-    public void setÉxitos() 
-    {
-        éxitos++;
-    }
-    public int getÉxitos() 
-    {
-        return(éxitos);
-    }
-
-
-    int winTotal;
 }
